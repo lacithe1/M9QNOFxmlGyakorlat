@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<iskola>
+
+<tanar kod="001">
+<nev>Zsíros Ferenc</nev>
+<szak>Humán</szak>
+</tanar>
+<tanar kod="002">
+<nev>Cserepes Virág</nev>
+<szak>Humán</szak>
+</tanar>
+<tantargy kod="tort" oktato="001">
+<tnev>Történelem</tnev>
+<osztaly>11C</osztaly>
+</tantargy>
+<tantargy kod="irod" oktato="002">
+<tnev>Irodalom</tnev>
+<osztaly>11C</osztaly>
+</tantargy>
+</iskola>
