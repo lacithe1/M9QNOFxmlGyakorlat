@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  <!DOCTYPE mozi SYSTEM "mozi.dtd"> -->
+
+<mozi>
+
+	<film id="txt_nxm_2jb" mufaj="horror">
+			<rendezo id="nzk_4xm_2jb" nev="alex"/>
+			<szinesz id="u5_4xm_2jb" nev="Madison Ivy"/>
+			<iro id="trv_4xm_2jb"/>
+			<producer id="abc_4xm_2jb" nev="Gipsz Jakab"/>
+			<dramaturg id="abb_4xm_2jb" nev="Almas Körte"/>
+			<operator id="aba_4xm_2jb" nev="Körtes Alma"/>
+	</film>
+
+
+</mozi>
