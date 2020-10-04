@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- <!DOCTYPE orarend SYSTEM "orarend.dtd"> --> 
+
+<konferencia>
+	<cim>Fontos meeting #83465</cim>
+	<hallgatok>
+		<hallgato>
+			<nev>Péter István</nev>
+			<lakcim>Salgótarján, Győzike utca 1.</lakcim>
+		</hallgato>
+	</hallgatok>
+	<helyszin>Kiskunfélegyháza, Kisnagy út 15.</helyszin>
+	<eloado>
+		<nev>Sosekések Elemér</nev>
+		<adoszam>087412121312</adoszam>
+		<lakcim>Akarattya, Mégiskések utca 64.</lakcim>
+	</eloado>
+	<datum>2020.02.20.</datum>
+</konferencia>

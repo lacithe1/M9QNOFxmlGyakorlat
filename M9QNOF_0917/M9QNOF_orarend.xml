@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- <!DOCTYPE orarend SYSTEM "orarend.dtd"> --> 
+
+<orarend>
+	<ora id="01" tipus="nappali">
+		<targy>Történelem</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>8</tol>
+			<ig>15</ig>
+		</idopont>
+		<helyszin>8as terem</helyszin>
+		<oktato>Gipsz Jakab</oktato>
+		<szak>Alap</szak>
+	</ora>
+	<ora id="02" tipus="nappali">
+		<targy>Informatika</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>9</tol>
+			<ig>13</ig>
+		</idopont>
+		<helyszin>Számtech terem</helyszin>
+		<oktato>Infós Imre</oktato>
+		<szak>Infaus</szak>
+	</ora>
+	<ora id="03" tipus="nappali">
+		<targy>Irodalom</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>4es terem</helyszin>
+		<oktato>Irodalom Ilona</oktato>
+		<szak>Humán</szak>
+	</ora>
+	<ora id="04" tipus="nappali">
+		<targy>Nyelvtan</targy>
+		<idopont>
+			<nap>Csütörtök</nap>
+			<tol>8</tol>
+			<ig>15</ig>
+		</idopont>
+		<helyszin>2es terem</helyszin>
+		<oktato>Petőfi</oktato>
+		<szak>Humán</szak>
+	</ora>
+	<ora id="05" tipus="nappali">
+		<targy>Földrajz</targy>
+		<idopont>
+			<nap>Péntek</nap>
+			<tol>9</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>Földrajz Terem</helyszin>
+		<oktato>Mount Blanc</oktato>
+		<szak>Alap</szak>
+	</ora>
+	
+</orarend>

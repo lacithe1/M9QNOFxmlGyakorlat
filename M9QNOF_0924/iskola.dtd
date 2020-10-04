@@ -1,0 +1,13 @@
+<!ELEMENT iskola (tanar,tantargy)>
+
+<!ELEMENT tanar (nev,szak)>
+<!ATTLIST tanar id IDREF REQUIRED>
+<!ATTLIST tanar kod ID REQUIRED>
+<!ELEMENT nev (#PCDATA)>
+<!ELEMENT szak (#PCDATA)>
+
+<!ELEMENT tantargy (tnev,osztaly)>
+<!ATTLIST tantargy id IDREF REQUIRED>
+<!ATTLIST tantargy kod ID REQUIRED>
+<!ELEMENT tnev (#PCDATA)>
+<!ELEMENT osztaly (#PCDATA)>
