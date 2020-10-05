@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-<jegyzet>
-xmlns:xsi="htttp://www.w3.org/2001/XMLSchema_instance"
-	xsi:noNamespaceSchemaLocation="note.xsd"
+<xs:element name="jegyzet">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="to" type="xs:string"/>
+      <xs:element name="from" type="xs:string"/>
+      <xs:element name="heading" type="xs:string"/>
+      <xs:element name="body" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
 
-		<to>Péter</to>
-		<from>Jani</from>
-		<heading>Emlékeztető</heading>
-		<body>Ne felejtsd el, amit megbeszéltünk!</body>
-		
-</jegyzet>
+</xs:schema> 
