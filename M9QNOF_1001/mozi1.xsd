@@ -42,7 +42,6 @@
           </xs:complexType>
         </xs:element>
       </xs:sequence>
-      <xs1:attribute ref="xs:noNamespaceSchemaLocation" xmlns:xs="htttp://www.w3.org/2001/XMLSchema_instance" xmlns:xs1="http://www.w3.org/2001/XMLSchema"/>
     </xs:complexType>
   </xs:element>
 </xs:schema>

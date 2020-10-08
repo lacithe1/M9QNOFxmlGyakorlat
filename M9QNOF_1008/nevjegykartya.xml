@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak>
+
+<nevjegykartya id="1">
+	<nev></nev>
+	<email></email>
+	<beosztas></beosztas>
+	<telefonszam>
+		<korzet></korzet>
+	</telefonszam>
+	
+	<ceg>
+	
+		<cim>
+			<iranyitoszam></iranyitoszam>
+			<varos></varos>
+			<utca></utca>
+			<hazszam></hazszam>
+		</cim>
+		<nev></nev>
+		<telefonszam>
+			<korzet></korzet>
+		</telefonszam>
+		<weblap></weblap>
+	
+	</ceg>
+
+</nevjegykartya>
+
+</nevjegykartyak>
