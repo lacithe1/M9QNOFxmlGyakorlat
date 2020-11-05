@@ -1,0 +1,5 @@
+<!ELEMENT szemelyek (nev,kor,varos)>
+<!ATTLIST id type ID #REQUIRED >
+<!ELEMENT nev (#PCDATA)>
+<!ELEMENT kor (#PCDATA)>
+<!ELEMENT varos (#PCDATA)>
