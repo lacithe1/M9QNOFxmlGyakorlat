@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <?xml-model href="szemelyek.dtd" type="application/xml-dtd"?> -->
+<!-- <?xml-model href="szemelyek.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?> -->
+
+<szemelyek>
+    <szemely id="1">
+        <nev>Dora</nev>
+        <kor>29</kor>
+        <varos>Budapest</varos>
+    </szemely>
+    <szemely id="2">
+        <nev>Kata</nev>
+        <kor>12</kor>
+        <varos>Miskolc</varos>
+    </szemely>
+    <szemely id="3">
+        <nev>Attila</nev>
+        <kor>29</kor>
+        <varos>Budapest</varos>
+    </szemely>
+</szemelyek>

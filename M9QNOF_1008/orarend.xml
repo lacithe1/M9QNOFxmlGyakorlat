@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="orarend.xsd">
+    <ora id="1" tipus="előadás">
+        <targy>Adastruktúrák és algoritmusok</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>6</tol>
+            <ig>11</ig>
+        </idopont>
+        <helyszin>A/1 12</helyszin>
+        <oktato>Házy Attila</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="2" tipus="gyakorlat">
+        <targy>Adastruktúrák és algoritmusok</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>10</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>A/1 122</helyszin>
+        <oktato>Házy Attila</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="3" tipus="előadás">
+        <targy>Mesterséges intelligencia</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>12</tol>
+            <ig>15</ig>
+        </idopont>
+        <helyszin>A/1 305</helyszin>
+        <oktato>Dudás László</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="4" tipus="előadás">
+        <targy>Web technológiák 1</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>16</tol>
+            <ig>17</ig>
+        </idopont>
+        <helyszin>Info 103</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="5" tipus="gyakorlat">
+        <targy>Web technológiák 1</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <tol>15</tol>
+            <ig>17</ig>
+        </idopont>
+        <helyszin>Info 103</helyszin>
+        <oktato>Sátán Ádám</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="6" tipus="előadás">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>12</tol>
+            <ig>15</ig>
+        </idopont>
+        <helyszin>33. előadó</helyszin>
+        <oktato>Bednarik László</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="7" tipus="gyakorlat">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>11</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszin>Info 101</helyszin>
+        <oktato>Bednarik László</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="8" tipus="gyakorlat">
+        <targy>Mesterséges intelligencia alapok</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>15</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>Info 103</helyszin>
+        <oktato>Dudás László</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="9" tipus="előadás">
+        <targy>Vállalati információs rendszerek fejlesztése</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>16</tol>
+            <ig>19</ig>
+        </idopont>
+        <helyszin>Info 202</helyszin>
+        <oktato>Sasvári Péter</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="10" tipus="gyakorlat">
+        <targy>Vállalati információs rendszerek fejlesztése</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>19</tol>
+            <ig>20</ig>
+        </idopont>
+        <helyszin>Info 202</helyszin>
+        <oktato>Sasvári Péter</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+</orarend>
