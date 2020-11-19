@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="orarendM9QNOF.xsl" type="text/xsl"?>
+<orarend>
+    <ora id="00" tipus="eloadas">
+        <targy>Mesint</targy>
+        <idopont nap="Hetfo" tol="13" ig="18"></idopont>
+        <helyszin>Info 103</helyszin>
+        <oktato>Dudas Laszlo</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="01" tipus="gyakorlat">
+        <targy>Grafika</targy>
+        <idopont nap="Kedd" tol="10" ig="12"></idopont>
+        <helyszin>In/15</helyszin>
+        <oktato>Oktato Jakabr</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="02" tipus="eloadas">
+        <targy>Adatkezeles XML kornyezetben</targy>
+        <idopont nap="Kedd" tol="12" ig="14"></idopont>
+        <helyszin>XXXVII. ea</helyszin>
+        <oktato>Dednarik Laszlo</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="03" tipus="gyakorlat">
+        <targy>Adatkezeles XML kornyezetben</targy>
+        <idopont nap="Csütörtök" tol="12" ig="14"></idopont>
+        <helyszin>In/103</helyszin>
+        <oktato>Bednarik Laszlo</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="04" tipus="gyakorlat">
+        <targy>Mesterseges Intelligencia</targy>
+        <idopont nap="Kedd" tol="12" ig="17"></idopont>
+        <helyszin>In/15</helyszin>
+        <oktato>Dudas Laszlo</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="05" tipus="eloadas">
+        <targy>Analízis II.</targy>
+        <idopont nap="Csutortok" tol="10" ig="13"></idopont>
+        <helyszin>32. ea</helyszin>
+        <oktato>Szilagyi Szilvia</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+</orarend>
