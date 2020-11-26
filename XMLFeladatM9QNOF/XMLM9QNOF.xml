@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="XMLSchemaM9QNOF.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<versenyzok>
+<versenyzo >
+	<nev>Bajnok Béla</nev>
+	<nemzetiseg>Magyar</nemzetiseg>
+	<nem>Férfi</nem>
+	<kategoria>Pehelysúly</kategoria>
+	<lakcim>
+		<orszag>Magyarország</orszag>
+		<varos>Alsóbögyörősvalagpuszta</varos>
+		<utca>Kő</utca>
+		<haz>14</haz>
+	</lakcim>
+	<edzo Eid="af_1117">
+		<nemzetiseg>Szerb</nemzetiseg>
+		<nev>Brc Zrc</nev>
+	</edzo>
+	<szponzorok>
+		<szponzor Sid="Ferrari" Vid="01">
+			<szekhely>Torino</szekhely>
+			<tamogatas>1000000 EUR</tamogatas>		
+		</szponzor>
+		<szponzor Sid="Pottyos" Vid="01">
+			<szekhely>Budapest</szekhely>
+			<tamogatas>11000000 HUF</tamogatas>		
+		</szponzor>
+		<szponzor Sid="Milka" Vid="01">
+			<szekhely>Bécs</szekhely>
+			<tamogatas>230000 EUR</tamogatas>		
+		</szponzor>
+		<szponzor Sid="Nissin" Vid="01">
+			<szekhely>Tokió</szekhely>
+			<tamogatas>5000000000 JEN</tamogatas>		
+		</szponzor>
+	</szponzorok>
+	<meccsek>
+		<meccs Mid="55" Vid="01">
+			<tipus>Box</tipus>
+			<fajta>12 menet</fajta>
+		</meccs>
+		<meccs Mid="56" Vid="01">
+			<tipus>Box</tipus>
+			<fajta>6 menet</fajta>
+		</meccs>
+		<meccs Mid="57" Vid="01">
+			<tipus>Box</tipus>
+			<fajta>9 menet</fajta>
+		</meccs>
+		<meccs Mid="58" Vid="01">
+			<tipus>Box</tipus>
+			<fajta>12 menet</fajta>
+		</meccs>
+	</meccsek>
+</versenyzo>
+	
+<versenyzo >
+	<nev>Kevésbébajnok Kálmán</nev>
+	<nemzetiseg>Magyar</nemzetiseg>
+	<nem>Férfi</nem>
+	<kategoria>Középsúly</kategoria>
+	<lakcim>
+		<orszag>Magyarország</orszag>
+		<varos>Tard</varos>
+		<utca>Pelyhes</utca>
+		<haz>59</haz>
+	</lakcim>
+	<edzo Eid="af_1117">
+		<nemzetiseg>Szerb</nemzetiseg>
+		<nev>Brc Zrc</nev>
+	</edzo>
+	<szponzorok>
+		<szponzor Sid="Ferrari" Vid="02">
+			<szekhely>Torino</szekhely>
+			<tamogatas>30000 EUR</tamogatas>		
+		</szponzor>
+		<szponzor Sid="Milka" Vid="02">
+			<szekhely>Bécs</szekhely>
+			<tamogatas>19000 EUR</tamogatas>		
+		</szponzor>
+		<szponzor Sid="Nissin" Vid="02">
+			<szekhely>Tokió</szekhely>
+			<tamogatas>60000000 JEN</tamogatas>		
+		</szponzor>
+		<szponzor Sid="LevI's" Vid="02">
+			<szekhely>Texas</szekhely>
+			<tamogatas>50000 USD</tamogatas>		
+		</szponzor>
+	</szponzorok>
+	<meccsek>
+		<meccs Mid="3044" Vid="02">
+			<tipus>Box</tipus>
+			<fajta>12 menet</fajta>
+		</meccs>
+		<meccs Mid="3009" Vid="02">
+			<tipus>Box</tipus>
+			<fajta>8 menet</fajta>
+		</meccs>
+		<meccs Mid="155" Vid="02">
+			<tipus>Box</tipus>
+			<fajta>12 menet</fajta>
+		</meccs>
+		<meccs Mid="146" Vid="02">
+			<tipus>Box</tipus>
+			<fajta>10 menet</fajta>
+		</meccs>
+	</meccsek>
+</versenyzo>
+</versenyzok>
