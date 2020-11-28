@@ -4,8 +4,12 @@
 	<xs:element name="versenyzok">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="versenyzo" id="Vid"  maxOccurs="unbounded">
-					<xs:complexType>
+				<xs:element name="versenyzo" maxOccurs="unbounded" type="vtype"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+     <xs:complexType name="vtype">
 						<xs:sequence>
 							<xs:element name="nev" type="xs:string" maxOccurs="1"/>
 							<xs:element name="nemzetiseg" type="xs:string" maxOccurs="1"/>
@@ -13,41 +17,45 @@
 							<xs:element name="kategoria" type="xs:string" maxOccurs="1"/>
 							<xs:element name="lakcim" type="ltype" maxOccurs="1"/>
 							<xs:element name="edzo" id="Eid" maxOccurs="1"/>
-							<xs:element name="szponzorok" type="sztype" maxOccurs="1"/>   		
-							<xs:element name="meccsek" maxOccurs="1"/>
-								<xs:sequence>
-                           			 <xs:element name="meccs" type="mtype" maxOccurs="unbounded"/>
-                        		</xs:sequence>
-                        		
-                        		
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-
+                            <xs:element name="szponzorok" maxOccurs="1">  
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="szponzor" type="sztype" maxOccurs="unbounded"/>	
+                                        </xs:sequence>
+                                    </xs:complexType>
+                            </xs:element>
+                            <xs:element name="meccsek" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="meccs" type="mtype" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Vid" type="xs:ID"/>
+     </xs:complexType>
 
 	<xs:complexType name="sztype">
 			<xs:sequence>
-				<xs:complexType name="szponzor">
-            			<xs:element name="szekhely" type="xs:string"/>
-            			<xs:element name="tamogatas" type="xs:string"/>
-            	</xs:complexType>
-       		 </xs:sequence>
-        <xs:attribute name="Szid" type="xs:ID"/>
+                <xs:element name="szekhely" type="xs:string"/>
+                <xs:element name="tamogatas" type="xs:string"/>
+            </xs:sequence>
+        <xs:attribute name="Sid" type="xs:ID"/>
         <xs:attribute name="Vid" type="xs:IDREF"/>
     </xs:complexType>
     
+    
+                           			
     <xs:complexType name="mtype">
-        <xs:sequence>
-            <xs:element name="tipus" type="xs:string"/>
-            <xs:element name="fajta" type="xs:string"/>
-        </xs:sequence>
-        <xs:attribute name="Mid" type="xs:ID"/>
-        <xs:attribute name="Vid" type="xs:IDREF"/>
+                <xs:sequence>
+                    <xs:element name="tipus" type="xs:string"/>
+                    <xs:element name="fajta" type="xs:string"/>
+                </xs:sequence>
+                <xs:attribute name="Mid" type="xs:ID"/>
+                <xs:attribute name="Vid" type="xs:IDREF"/>
     </xs:complexType>
-	<xs:complexType name="etype">
+    
+    <xs:complexType name="etype">
         <xs:sequence>
             <xs:element name="nev" type="xs:string"/>
             <xs:element name="nemzetiseg" type="xs:string"/>
@@ -55,6 +63,8 @@
         <xs:attribute name="Eid" type="xs:ID" use="required"/>
         <xs:attribute name="Vid" type="xs:IDREF" use="optional"/>
     </xs:complexType>
+
+
     <xs:complexType name="ltype">
         <xs:sequence>
             <xs:element name="orszag" type="xs:string" maxOccurs="1"/>
@@ -65,4 +75,3 @@
     </xs:complexType>
     
 </xs:schema>
-

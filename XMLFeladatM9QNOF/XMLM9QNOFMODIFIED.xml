@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="XMLSchemaM9QNOF.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-
-<versenyzok>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-model href="XMLSchemaM9QNOF.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?><versenyzok>
 <versenyzo Vid="V_009">
-	<nev>Bajnok Béla</nev>
+	<nev>Bélus</nev>
 	<nemzetiseg>Magyar</nemzetiseg>
 	<nem>Férfi</nem>
 	<kategoria>Pehelysúly</kategoria>
@@ -53,8 +50,8 @@
 	</meccsek>
 </versenyzo>
 	
-<versenyzo Vid="V_010" >
-	<nev>Kevésbébajnok Kálmán</nev>
+<versenyzo Vid="V_010">
+	<nev>Kálmán</nev>
 	<nemzetiseg>Magyar</nemzetiseg>
 	<nem>Férfi</nem>
 	<kategoria>Középsúly</kategoria>
