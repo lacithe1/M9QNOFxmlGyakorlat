@@ -1,0 +1,45 @@
+{
+    "autok": {
+      "auto": [
+        {
+          "-rsz": "ABC-100",
+          "tipus": "Fiat",
+          "ar": "21233",
+          "szin": "piros",
+          "tulaj": {
+            "nev": "Zoli",
+            "varos": "Eger"
+          }
+        },
+        {
+          "-rsz": "ABC-101",
+          "tipus": "Skoda",
+          "ar": "44233",
+          "szin": "feher",
+          "tulaj": {
+            "nev": "Peti",
+            "varos": "Miskolc"
+          }
+        },
+        {
+          "-rsz": "ABC-102",
+          "tipus": "Opel",
+          "ar": "31233",
+          "szin": "szurke",
+          "tulaj": {
+            "nev": "Tomi",
+            "varos": "Miskolc"
+          }
+        },
+        {
+          "-rsz": "ABC-103",
+          "tipus": "Opel",
+          "ar": "21233",
+          "tulaj": {
+            "nev": "Sanyi",
+            "varos": "Miskolc"
+          }
+        }
+      ]
+    }
+  }

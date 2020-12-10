@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JSON megvalósítása - JavaScript</h2>
+<h3 id="language1"></h3>
+<h3 id="author1"></h3>
+<h3 id="language2"></h3>
+<h3 id="author2"></h3>
+<hr>
+<p id=booklist></p>
+<hr>
+    
+<script>
+var text = 
+    '{ "element": [' +
+        '{"author": "Nyékyné Dr. Gaizler Judit", "language": "Java 2 I-II. - Útikalauz programozóknak 5.0"},' +
+        '{"author": "Kovács László", "language": "Adatkezelés XML környezetben"}' +
+    ']' +
+'}';
+
+obj = JSON.parse(text);
+document.getElementById("language1").innerHTML = "Language:" + obj.element[0].language;
+document.getElementById("author1").innerHTML = "Author:" + obj.element[0].author;
+document.getElementById("language2").innerHTML = "Language:" + obj.element[1].language;
+document.getElementById("author2").innerHTML = "Author:" + obj.element[1].author;
+document.getElementById("booklist").innerHTML = obj.element[0].language + " a könyv szerzõje: " + obj.element[0].author;
+</script>
+
+</body>
+</html>
